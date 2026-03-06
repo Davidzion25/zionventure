@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Zion Ventures Electrical Services</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<h1>ZION VENTURES</h1>
+<p>Electrical & Solar Experts</p>
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#gallery">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>Reliable Electrical Solutions</h2>
+
+<p>Professional Electrical & Solar Services for Homes and Businesses</p>
+
+<button onclick="callNow()">Call Now</button>
+
+</section>
+
+<section id="about">
+
+<h2>About Zion Ventures</h2>
+
+<p>
+
+Zion Ventures Electrical Services provides expert electrical installations,
+solar solutions, wiring services, and electrical maintenance.
+
+We deliver safe, reliable, and affordable electrical solutions
+for homes, offices, and businesses across Ibadan.
+
+</p>
+
+</section>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+⚡ Electrical Installation
+</div>
+
+<div class="card">
+☀ Solar Installation
+</div>
+
+<div class="card">
+🔧 Fault Diagnosis
+</div>
+
+<div class="card">
+🏠 Conduit & Surface Wiring
+</div>
+
+<div class="card">
+🔌 Appliance Repairs
+</div>
+
+<div class="card">
+🧰 Electrical Inspection
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2>Our Projects</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1581091870627-3e7c1c0e0c3a">
+
+<img src="https://images.unsplash.com/photo-1581093588401-16ec9f8b2c9e">
+
+<img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df">
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p>📞 09124808992</p>
+
+<p>📞 08065857534</p>
+
+<p>📧 olanrewajuadeyemo25@gmail.com</p>
+
+<p>📍 Ibadan, Nigeria</p>
+
+<button onclick="whatsapp()">Chat on WhatsApp</button>
+
+</section>
+
+<footer>
+
+<p>© 2026 Zion Ventures Electrical Services</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
