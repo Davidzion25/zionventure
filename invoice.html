@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Invoice Generator</title>
+
+<style>
+
+body{
+font-family:Arial;
+padding:40px;
+}
+
+.invoice{
+max-width:600px;
+margin:auto;
+border:1px solid #ddd;
+padding:30px;
+}
+
+button{
+padding:10px 20px;
+margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="invoice">
+
+<h2>Zion Ventures Invoice</h2>
+
+<label>Customer Name</label>
+<input id="name">
+
+<label>Service</label>
+<input id="service">
+
+<label>Amount</label>
+<input id="amount">
+
+<button onclick="printInvoice()">Print Invoice</button>
+
+</div>
+
+<script>
+
+function printInvoice(){
+
+window.print();
+
+}
+
+</script>
+
+</body>
+
+</html>
