@@ -1,6 +1,6 @@
-function callNow(){
+function contact(){
 
-window.location.href="tel:09124808992";
+alert("Call Zion Ventures: 09124808992");
 
 }
 
